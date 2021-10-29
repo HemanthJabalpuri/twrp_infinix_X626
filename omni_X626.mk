@@ -23,7 +23,7 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Infinix-X626B
+PRODUCT_DEVICE := X626
 PRODUCT_NAME := omni_X626
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X626B
