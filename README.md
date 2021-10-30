@@ -1,11 +1,13 @@
 ## TWRP for Infinix S4 X626
 
 ### Working
+- Brightness
 - MTP
+- External SD Card
+- USB OTG
 
 ### Issues
 - Can't access /data
-- USB OTG
 - and more
 
 ### Specifications
