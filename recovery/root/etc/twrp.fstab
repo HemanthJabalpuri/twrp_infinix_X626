@@ -5,7 +5,7 @@
 
 /boot            emmc    /dev/block/platform/bootdevice/by-name/boot
 /recovery        emmc    /dev/block/platform/bootdevice/by-name/recovery
-/data            ext4    /dev/block/platform/bootdevice/by-name/userdata     flags=forcefdeorfbe=/dev/block/platform/bootdevice/by-name/metadata
+/data            ext4    /dev/block/platform/bootdevice/by-name/userdata     flags=forceencrypt=/dev/block/platform/bootdevice/by-name/metadata
 /cache           ext4    /dev/block/platform/bootdevice/by-name/cache
 /persist         ext4    /dev/block/platform/bootdevice/by-name/persist
 /misc            emmc    /dev/block/platform/bootdevice/by-name/para
