@@ -6,7 +6,7 @@ on init
 on property:ro.crypto.state=encrypted && property:ro.crypto.type=file
     install_keyring
 
-n fs
+on fs
     start keymaster-3-0
     start gatekeeper-1-0
 
